@@ -1,3 +1,0 @@
-http://192.168.201.142:8001/GestionPrestamoApp-GestionPrestamo-context-root/GestionPrestamoPort?wsdl
-
-http://cnavarro.inei.com.pe.:8001/soa-infra/services/default/PrestamoPrj/bpelsolicitarprestamo_client_ep?WSDL
