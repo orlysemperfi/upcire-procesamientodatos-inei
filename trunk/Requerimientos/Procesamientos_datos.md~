@@ -1250,9 +1250,9 @@
 					stereotype 	"extend"
 					supplier   	"Use Case View::Modelo de casos de uso del sistema::Captura de datos::Consultar Avance diario Lotes digitados"
 					quidu      	"4D8697BE00D7")))
-			    (object UseCase "Consultar Lotes observados"
+			    (object UseCase "Consultar Lotes trabajo observados"
 				quid       	"4D869B3F001B")
-			    (object UseCase "Corregir Lotes observados"
+			    (object UseCase "Corregir Lotes trabajo observados"
 				quid       	"4D869DB3026E")
 			    (object UseCase "Asignar Lotes trabajo a corregir"
 				quid       	"4D86A0540227")
@@ -1335,7 +1335,7 @@
 				roles      	(list role_list
 				    (object Role "$UNNAMED$37"
 					quid       	"4D869BFE01E3"
-					supplier   	"Use Case View::Modelo de casos de uso del sistema::Captura de datos::Consultar Lotes observados"
+					supplier   	"Use Case View::Modelo de casos de uso del sistema::Captura de datos::Consultar Lotes trabajo observados"
 					quidu      	"4D869B3F001B"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$38"
@@ -1347,7 +1347,7 @@
 				roles      	(list role_list
 				    (object Role "$UNNAMED$40"
 					quid       	"4D869DC90143"
-					supplier   	"Use Case View::Modelo de casos de uso del sistema::Captura de datos::Corregir Lotes observados"
+					supplier   	"Use Case View::Modelo de casos de uso del sistema::Captura de datos::Corregir Lotes trabajo observados"
 					quidu      	"4D869DB3026E"
 					is_navigable 	TRUE)
 				    (object Role "$UNNAMED$41"
@@ -1790,7 +1790,7 @@
 					quidu      	"4D869B5D03CA"
 					annotation 	8
 					autoResize 	TRUE)
-				    (object UseCaseView "Use Case View::Modelo de casos de uso del sistema::Captura de datos::Consultar Lotes observados" @71
+				    (object UseCaseView "Use Case View::Modelo de casos de uso del sistema::Captura de datos::Consultar Lotes trabajo observados" @71
 					location   	(1192, 1554)
 					font       	(object Font
 					    size       	10
@@ -1808,7 +1808,7 @@
 					    nlines     	2
 					    max_width  	630
 					    justify    	0
-					    label      	"Consultar Lotes observados")
+					    label      	"Consultar Lotes trabajo observados")
 					icon_style 	"Icon"
 					line_color 	3342489
 					fill_color 	13434879
@@ -1875,7 +1875,7 @@
 					quidu      	"4D86872B0032"
 					annotation 	8
 					autoResize 	TRUE)
-				    (object UseCaseView "Use Case View::Modelo de casos de uso del sistema::Captura de datos::Corregir Lotes observados" @76
+				    (object UseCaseView "Use Case View::Modelo de casos de uso del sistema::Captura de datos::Corregir Lotes trabajo observados" @76
 					location   	(1240, 2145)
 					font       	(object Font
 					    size       	10
@@ -1893,7 +1893,7 @@
 					    nlines     	2
 					    max_width  	630
 					    justify    	0
-					    label      	"Corregir Lotes observados")
+					    label      	"Corregir Lotes trabajo observados")
 					icon_style 	"Icon"
 					line_color 	3342489
 					fill_color 	13434879
@@ -2921,6 +2921,115 @@
 				fill_color 	13434879
 				quidu      	"4D7D7352036C"
 				width      	300
+				height     	180)))
+		    (object ClassDiagram "Diagrama de Paquetes"
+			quid       	"4D86AAF70116"
+			title      	"Diagrama de Paquetes"
+			zoom       	100
+			max_height 	28350
+			max_width  	21600
+			origin_x   	0
+			origin_y   	0
+			items      	(list diagram_item_list
+			    (object CategoryView "Use Case View::Modelo de casos de uso del sistema::Captura de datos" @126
+				location   	(844, 275)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@126
+				    location   	(700, 191)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"Captura de datos")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4D7D73510145"
+				width      	300
+				height     	180)
+			    (object CategoryView "Use Case View::Modelo de casos de uso del sistema::Consistencia de datos" @127
+				location   	(1559, 250)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@127
+				    location   	(1415, 166)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"Consistencia de datos")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4D7D734C035B"
+				width      	300
+				height     	180)
+			    (object CategoryView "Use Case View::Modelo de casos de uso del sistema::Control de lotes" @128
+				location   	(1181, 659)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@128
+				    location   	(1037, 575)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"Control de lotes")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4D7D733502FD"
+				width      	300
+				height     	180)
+			    (object CategoryView "Use Case View::Modelo de casos de uso del sistema::Seguridad" @129
+				location   	(1216, 1062)
+				font       	(object Font
+				    size       	10
+				    face       	"Arial"
+				    bold       	FALSE
+				    italics    	FALSE
+				    underline  	FALSE
+				    strike     	FALSE
+				    color      	0
+				    default_color 	TRUE)
+				label      	(object ItemLabel
+				    Parent_View 	@129
+				    location   	(1072, 978)
+				    fill_color 	13434879
+				    nlines     	2
+				    max_width  	288
+				    justify    	0
+				    label      	"Seguridad")
+				icon_style 	"Icon"
+				line_color 	3342489
+				fill_color 	13434879
+				quidu      	"4D7D7352036C"
+				width      	300
 				height     	180))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"
@@ -2932,7 +3041,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Use Case View::Modelo de Casos de Uso de Negocio" @126
+		    (object CategoryView "Use Case View::Modelo de Casos de Uso de Negocio" @130
 			location   	(734, 481)
 			font       	(object Font
 			    size       	10
@@ -2944,7 +3053,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@126
+			    Parent_View 	@130
 			    location   	(733, 700)
 			    anchor_loc 	1
 			    nlines     	2
@@ -3276,7 +3385,7 @@
 				origin_x   	0
 				origin_y   	313
 				items      	(list diagram_item_list
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador de registro UDRA" @127
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador de registro UDRA" @131
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3293,7 +3402,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@127
+					    Parent_View 	@131
 					    location   	(343, 756)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3309,7 +3418,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador UDRA" @128
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador UDRA" @132
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3326,7 +3435,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@128
+					    Parent_View 	@132
 					    location   	(993, 775)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3342,7 +3451,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Jefe Consistencia" @129
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Jefe Consistencia" @133
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3359,7 +3468,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@129
+					    Parent_View 	@133
 					    location   	(308, 1206)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3375,7 +3484,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Analista Consistencia" @130
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Analista Consistencia" @134
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3392,7 +3501,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@130
+					    Parent_View 	@134
 					    location   	(974, 1212)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3408,7 +3517,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Supervisor de digitacion" @131
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Supervisor de digitacion" @135
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3425,7 +3534,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@131
+					    Parent_View 	@135
 					    location   	(321, 1609)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3441,7 +3550,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Digitador" @132
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Digitador" @136
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3458,7 +3567,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@132
+					    Parent_View 	@136
 					    location   	(993, 1637)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3474,7 +3583,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Consultor de digitacion" @133
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Consultor de digitacion" @137
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3491,7 +3600,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@133
+					    Parent_View 	@137
 					    location   	(615, 2062)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3507,7 +3616,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Responsable Difusion" @134
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Responsable Difusion" @138
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3524,7 +3633,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@134
+					    Parent_View 	@138
 					    location   	(321, 2537)
 					    anchor_loc 	1
 					    nlines     	2
@@ -3540,7 +3649,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Tecnico de Difusion" @135
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Tecnico de Difusion" @139
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -3557,7 +3666,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@135
+					    Parent_View 	@139
 					    location   	(1012, 2518)
 					    anchor_loc 	1
 					    nlines     	2
