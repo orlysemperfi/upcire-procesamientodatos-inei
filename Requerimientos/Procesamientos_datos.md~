@@ -2620,7 +2620,7 @@
 				zoom       	100
 				max_height 	28350
 				max_width  	21600
-				origin_x   	0
+				origin_x   	550
 				origin_y   	300
 				items      	(list diagram_item_list
 				    (object UseCaseView "Use Case View::Modelo de casos de uso del sistema::Captura de datos::Validar datos Formulario" @111
@@ -2781,7 +2781,7 @@
 						supplier   	@115
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$87" @119
-					location   	(3291, 2242)
+					location   	(3352, 2182)
 					font       	(object Font
 					    size       	10
 					    face       	"Arial"
@@ -2797,25 +2797,25 @@
 					roleview_list 	(list RoleViews
 					    (object RoleView "$UNNAMED$88" @120
 						Parent_View 	@119
-						location   	(-74, 726)
+						location   	(-13, 666)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"4D86A2CC02AC"
 						client     	@119
 						supplier   	@113
+						vertices   	(list Points
+						    (3352, 2182)
+						    (3351, 2242)
+						    (2840, 2239))
 						line_style 	0)
 					    (object RoleView "$UNNAMED$89" @121
 						Parent_View 	@119
-						location   	(-74, 726)
+						location   	(-13, 666)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"4D86A2CC02AE"
 						client     	@119
 						supplier   	@115
-						vertices   	(list Points
-						    (3291, 2242)
-						    (3351, 2242)
-						    (3358, 1701))
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$93" @122
 					location   	(3083, 1383)
@@ -2960,7 +2960,7 @@
 						supplier   	@127
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$96" @131
-					location   	(760, 1604)
+					location   	(708, 1567)
 					font       	(object Font
 					    size       	10
 					    face       	"Arial"
@@ -2976,7 +2976,7 @@
 					roleview_list 	(list RoleViews
 					    (object RoleView "$UNNAMED$97" @132
 						Parent_View 	@131
-						location   	(340, 573)
+						location   	(288, 536)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"4D8DA34E027B"
@@ -2985,7 +2985,7 @@
 						line_style 	0)
 					    (object RoleView "$UNNAMED$98" @133
 						Parent_View 	@131
-						location   	(340, 573)
+						location   	(288, 536)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"4D8DA34E027F"
@@ -3138,7 +3138,7 @@
 						supplier   	@138
 						line_style 	0)))
 				    (object AssociationViewNew "$UNNAMED$99" @142
-					location   	(796, 653)
+					location   	(754, 627)
 					font       	(object Font
 					    size       	10
 					    face       	"Arial"
@@ -3154,7 +3154,7 @@
 					roleview_list 	(list RoleViews
 					    (object RoleView "$UNNAMED$100" @143
 						Parent_View 	@142
-						location   	(388, 238)
+						location   	(346, 212)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"4D8DABAE029C"
@@ -3163,7 +3163,7 @@
 						line_style 	0)
 					    (object RoleView "$UNNAMED$101" @144
 						Parent_View 	@142
-						location   	(388, 238)
+						location   	(346, 212)
 						stereotype 	TRUE
 						line_color 	3342489
 						quidu      	"4D8DABAE029E"
@@ -4043,7 +4043,7 @@
 					ShowCompartmentStereotypes 	TRUE
 					IncludeAttribute 	TRUE
 					IncludeOperation 	TRUE
-					location   	(1917, 678)
+					location   	(1965, 665)
 					font       	(object Font
 					    size       	10
 					    face       	"Arial"
@@ -4055,7 +4055,7 @@
 					    default_color 	TRUE)
 					label      	(object ItemLabel
 					    Parent_View 	@184
-					    location   	(1917, 838)
+					    location   	(1965, 825)
 					    anchor_loc 	1
 					    nlines     	2
 					    max_width  	325
@@ -4338,8 +4338,8 @@
 					client     	@184
 					supplier   	@178
 					line_style 	3
-					origin_attachment 	(1915, 598)
-					terminal_attachment 	(1915, 494)
+					origin_attachment 	(1963, 585)
+					terminal_attachment 	(1963, 494)
 					drawSupplier 	@192)
 				    (object InheritView "" @200
 					stereotype 	TRUE
@@ -4505,13 +4505,6 @@
 				quidu      	"4D8B6F7C00D5"
 				client     	@204
 				supplier   	@202
-				line_style 	0)
-			    (object ImportView "" @211
-				stereotype 	TRUE
-				line_color 	3342489
-				quidu      	"4D8B6F7F00F4"
-				client     	@204
-				supplier   	@203
 				line_style 	0))))))
 	logical_presentations 	(list unit_reference_list
 	    (object UseCaseDiagram "Main"
@@ -4523,7 +4516,7 @@
 		origin_x   	0
 		origin_y   	0
 		items      	(list diagram_item_list
-		    (object CategoryView "Use Case View::Modelo de Casos de Uso de Negocio" @212
+		    (object CategoryView "Use Case View::Modelo de Casos de Uso de Negocio" @211
 			location   	(734, 481)
 			font       	(object Font
 			    size       	10
@@ -4535,7 +4528,7 @@
 			    color      	0
 			    default_color 	TRUE)
 			label      	(object ItemLabel
-			    Parent_View 	@212
+			    Parent_View 	@211
 			    location   	(733, 700)
 			    anchor_loc 	1
 			    nlines     	2
@@ -4867,7 +4860,7 @@
 				origin_x   	0
 				origin_y   	313
 				items      	(list diagram_item_list
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador de registro UDRA" @213
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador de registro UDRA" @212
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -4884,7 +4877,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@213
+					    Parent_View 	@212
 					    location   	(343, 756)
 					    anchor_loc 	1
 					    nlines     	2
@@ -4900,7 +4893,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador UDRA" @214
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Operador UDRA" @213
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -4917,7 +4910,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@214
+					    Parent_View 	@213
 					    location   	(993, 775)
 					    anchor_loc 	1
 					    nlines     	2
@@ -4933,7 +4926,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Jefe Consistencia" @215
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Jefe Consistencia" @214
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -4950,7 +4943,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@215
+					    Parent_View 	@214
 					    location   	(308, 1206)
 					    anchor_loc 	1
 					    nlines     	2
@@ -4966,7 +4959,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Analista Consistencia" @216
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Analista Consistencia" @215
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -4983,7 +4976,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@216
+					    Parent_View 	@215
 					    location   	(974, 1212)
 					    anchor_loc 	1
 					    nlines     	2
@@ -4999,7 +4992,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Supervisor de digitacion" @217
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Supervisor de digitacion" @216
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -5016,7 +5009,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@217
+					    Parent_View 	@216
 					    location   	(321, 1609)
 					    anchor_loc 	1
 					    nlines     	2
@@ -5032,7 +5025,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Digitador" @218
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Digitador" @217
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -5049,7 +5042,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@218
+					    Parent_View 	@217
 					    location   	(993, 1637)
 					    anchor_loc 	1
 					    nlines     	2
@@ -5065,7 +5058,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Consultor de digitacion" @219
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Consultor de digitacion" @218
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -5082,7 +5075,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@219
+					    Parent_View 	@218
 					    location   	(615, 2062)
 					    anchor_loc 	1
 					    nlines     	2
@@ -5098,7 +5091,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Responsable Difusion" @220
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Responsable Difusion" @219
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -5115,7 +5108,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@220
+					    Parent_View 	@219
 					    location   	(321, 2537)
 					    anchor_loc 	1
 					    nlines     	2
@@ -5131,7 +5124,7 @@
 					height     	290
 					annotation 	8
 					autoResize 	TRUE)
-				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Tecnico de Difusion" @221
+				    (object ClassView "Class" "Logical View::Modelo de Clase del Analisis::Trabajadores del Negocio::Tecnico de Difusion" @220
 					ShowCompartmentStereotypes 	TRUE
 					SuppressAttribute 	TRUE
 					SuppressOperation 	TRUE
@@ -5148,7 +5141,7 @@
 					    color      	0
 					    default_color 	TRUE)
 					label      	(object ItemLabel
-					    Parent_View 	@221
+					    Parent_View 	@220
 					    location   	(1012, 2518)
 					    anchor_loc 	1
 					    nlines     	2
